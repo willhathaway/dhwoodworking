@@ -1,0 +1,12 @@
+.wrapper {
+    width: 100vw-20px;
+    height: 99vh;
+    margin: 0px;
+}
+
+@media all and (max-width: 665px) {
+    .wrapper {
+        width: 100vw;
+        margin: 0px;
+    }
+}

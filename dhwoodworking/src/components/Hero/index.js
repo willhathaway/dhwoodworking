@@ -1,14 +1,14 @@
 import React from 'react';
 import "./style.css";
 
-function Wrapper ({children}) {
+function Hero ({children}) {
 
         return (
-            <div className="wrapper">
+            <div className="hero">
                 {children}
             </div>
         )
     
 }
 
-export default Wrapper;
+export default Hero;
