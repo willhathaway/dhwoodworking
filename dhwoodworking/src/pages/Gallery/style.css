@@ -1,0 +1,12 @@
+.galleryTitle {
+    color: black;
+    font-size: large;
+    padding: 0px 0px 20px 20px;
+    float: left;
+}
+
+.gallery {
+    width: 90vw;
+    height: 100vh;
+    margin: 5vw;
+}

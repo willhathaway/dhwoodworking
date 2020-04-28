@@ -1,0 +1,32 @@
+.quotesDiv {
+    color: white;
+    width:600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 30vh;
+    animation: 
+    fade 
+    6s
+    ease-out
+    0s
+    alternate
+    infinite
+    none
+    running
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0
+    }
+    50% {
+        opacity: 100
+    }
+}
+
+@media all and (max-width: 665px) {
+    .quotesDiv {
+        width:300px;
+    }
+}

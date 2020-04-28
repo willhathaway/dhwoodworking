@@ -1,0 +1,80 @@
+.header {
+    color: white;
+    background-color: black;
+    margin: 0px; 
+    height: 60px;
+}
+
+.titleDiv {
+    padding: 15px 0px 3px 20px;
+    width: 50vw;
+    float: left;
+}
+
+.title {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+.links {
+    width: 30vw;
+    float: right;
+    margin: 0px;
+    text-align: center;
+}
+
+.links a {
+    margin: auto;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    padding: 15px 20px 3px 20px;
+    float: right;
+}
+
+@media all and (max-width: 665px) {
+    .header {
+        color: white;
+        background-color: black;
+        margin: 0px; 
+        height: 60px;
+    }
+    
+    .titleDiv {
+        padding-top: 5px;
+        width: 95vw;
+        text-align: center;
+    }
+    
+    .title {
+        color: white;
+        font-size: large;
+        text-decoration: none;
+        text-align: center;
+        float: none;
+    }
+    
+    .links {
+    
+        width: 50%;
+        float: none;
+        margin: auto;
+        padding-top: 5px;
+        text-align: center;
+    }
+    
+    .links a {
+        margin: auto;
+        color: white;
+        font-size: medium;
+        text-decoration: none;
+        padding: 12px 10px 3px 10px;
+        display: inline;
+        float: none;
+    }
+
+
+}
